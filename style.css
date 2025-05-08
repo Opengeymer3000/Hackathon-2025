@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&display=swap");
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    }
+header {
+    font-size: 43px;
+    font-family: "Pacifico", cursive;
+    background-image: linear-gradient(to right, #4a90e2, white, #9013fe);
+    color:  #F51700;
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    margin-right: 100%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 10px 10px 10px black;
+    opacity: 0.1;
+}
+header img:hover {
+    opacity: 1;
+    transition: linear 1s;
+    transform: rotate(720deg);
+}
+header:hover {
+    background-image: linear-gradient(to right, green, white, brown);
+    transition: linear 1s;
+    color: #3500A8;
+}
+h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: white;
+    background-image: linear-gradient(green, black, green);
+    padding: 20px;
+    text-align: center;
+}
+h1:hover {
+    background: #3b6dd9;
+        background: linear-gradient(162deg, rgba(59, 109, 217, 1) 29%, rgba(209, 27, 64, 1) 69%);
+    transition: linear 1s;
+    color: #F51700;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+    transform: skew(-10deg, 10deg);
+}
+h1::before {
+    content: "🧙‍♂️  ";
+}
+h1::after {
+    content: "   🧙‍♂️";
+}
+nav {
+    border: 8px solid #00B929;
+    border-radius: 17px;
+    background-color: rgba(252, 217, 89, 1);
+    background-image: linear-gradient(140deg, rgba(252, 217, 89, 1) 44%, rgba(62, 66, 173, 1) 80%);
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color: purple;
+    color: black;
+    transition: linear 0.63s;
+    transform: rotate(360deg);
+}
+nav a:visited {
+    background-color: #7BB600;
+    color: black;
+    transition: linear 0.43s;
+}
+nav a::before {
+    content: "🧙‍♂️  ";
+}
+nav a::after {
+    content: "  🧙‍♂️";
+}
+h2 {
+    font-size: 38px;
+    font-family: "Pacifico", cursive;
+    color: white;
+    background-image: linear-gradient(to left, brown, black, navy);
+    padding: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+h2:hover {
+    background: #1eba7e;
+    background: radial-gradient(circle, rgba(30, 186, 126, 1) 31%, rgba(204, 47, 78, 1) 75%);
+    transition: linear 1s;
+    color: #F51700;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+    transform: skew(-10deg, 10deg);
+}
+h2::before {
+    content: "🧙‍♂️  ";
+}
+h2::after {
+    content: "   🧙‍♂️";
+}
+p, a {
+    font-family: "Amatic SC", sans-serif;
+    text-shadow: 14px 9px 7px rgba(111, 49, 206, 1);
+}
+.hog {
+    font-size: 27px;
+    background-color: bisque;
+    color: #9A005A;
+    padding: 20px;
+    text-align: center;
+    border: 7px solid black;
+    border-radius: 17px;
+}
+.hog:hover {
+    background-color: #C28200;
+    color: aliceblue;
+    transition: linear 0.63s;
+    transform: skew(10deg, -10deg);
+    box-shadow: 10px 10px 10px black;
+}
+div {
+    display: flex;
+    max-width: 100%;
+    margin: 0px auto 0px auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    border: 8px solid brown;
+    border-radius: 17px;
+}
+div img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    border-radius: 25%;
+    border: 5px solid #3b6dd9;
+    box-shadow: 10px 10px 10px black;
+    opacity: 0.2;
+}
+div img:hover {
+    opacity: 1;
+    transition: linear 1s;
+    transform: rotate(360deg);
+}
+.harry {
+    font-size: 27px;
+    background-color: brown;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    border: 7px solid black;
+    border-radius: 17px;
+}
+.harry:hover {
+    background-color: #C28200;
+    color: aliceblue;
+    transition: linear 0.63s;
+    transform: skew(10deg, -10deg);
+    box-shadow: 10px 10px 10px black;
+}
+.enemy {
+    font-size: 27px;
+    background-color: #00B0B0;
+    color: #FF7400;
+    padding: 20px;
+    text-align: center;
+    border: 7px solid #5A0688;
+    border-radius: 17px;
+}
+.enemy:hover {
+    background-color: #C28200;
+    color: aliceblue;
+    transition: linear 0.63s;
+    animation: enemy_animation 1.5s ease infinite;
+    box-shadow: 10px 10px 10px black;
+}
+li img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    border-radius: 25%;
+    border: 5px solid #9A005A;
+    box-shadow: 10px 10px 10px black;
+    opacity: 1;
+}
+@keyframes enemy_animation {
+    0% {
+        transform: translateY(-35px);
+    }
+    50% {
+        transform: translateX(35px);
+    }
+    70% {
+        transform: translateY(35px);
+    }
+    100% {
+        transform: translateX(-35px);
+    }
+}
+.friend {
+    font-size: 27px;
+    background-color: skyblue;
+    color: #FF7400;
+    padding: 20px;
+    text-align: center;
+    border: 7px solid brown;
+    border-radius: 17px;
+}
+.friend:hover {
+    background-color: #007979;
+    color: aliceblue;
+    transition: linear 0.63s;
+    animation: friend_animation 1.5s ease infinite;
+    box-shadow: 10px 10px 10px black;
+}
+@keyframes friend_animation {
+    0% {
+        transform: translateY(35px);
+    }
+
+    50% {
+        transform: translateX(-35px);
+    }
+
+    70% {
+        transform: translateY(-35px);
+    }
+
+    100% {
+        transform: translateX(-35px);
+    }
+}
+.thanks p {
+    background: #3bd965;
+        background: linear-gradient(307deg, rgba(59, 217, 101, 1) 29%, rgba(191, 27, 209, 1) 75%);
+        font-size: 23px;
+        color:white;
+        padding: 5px;
+}
+.thanks p:hover {
+    transition: linear 1s;
+    transform: scale(1.1);
+}
+footer {
+    font-size: 23px;
+    background: #b4463a;
+    background: linear-gradient(223deg, rgba(180, 70, 58, 1) 17%, rgba(253, 29, 253, 1) 38%, rgba(69, 252, 209, 1) 79%);
+    color:  white;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+}
