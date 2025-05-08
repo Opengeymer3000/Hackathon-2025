@@ -247,10 +247,8 @@ li img {
         font-size: 23px;
         color:white;
         padding: 5px;
-}
-.thanks p:hover {
-    transition: linear 1s;
-    transform: scale(1.1);
+        border: #4a90e2 5px solid;
+        border-radius: 13px;
 }
 footer {
     font-size: 23px;
